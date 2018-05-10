@@ -44,5 +44,31 @@ void Editor::set_intRect(double x, double y)
 
 void Editor::save_map()
 {
+    std::ofstream file;
+    file.open("map.txt");
+    for(unsigned int x = 0; x < MAP_WIDTH; x++)
+    {
+        for(unsigned int y = 0; y < MAP_HEIGHT; y++)
+        {
+            Tiles t = m_map->get_tile_background(x, y);
+            sf::IntRect intrect = t.get_intRect();
+            file << t.get_index_texture();
+            file << " ";
+            file << intrect.left;
+            file << " ";
+            file << intrect.top;
+            file << " ";
 
+            t = m_map->get_tile_nbackground(x, y);
+            intrect = t.get_intRect();
+            file << t.get_index_texture();
+            file << " ";
+            file << intrect.left;
+            file << " ";
+            file << intrect.top;
+            file << " ";
+        }
+        file << "\n";
+    }
+    file.close();
 }

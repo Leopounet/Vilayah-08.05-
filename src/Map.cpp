@@ -62,3 +62,15 @@ void Map::set_tile(unsigned int pos_x, unsigned int pos_y, unsigned int left, un
         m_tiles_background[pos].set_solidity(solid);
     }
 }
+
+Tiles Map::get_tile_background(unsigned int x, unsigned int y)
+{
+    unsigned int pos = x + y * MAP_WIDTH;
+    return m_tiles_background[pos];
+}
+
+Tiles Map::get_tile_nbackground(unsigned int x, unsigned int y)
+{
+    unsigned int pos = x + y * MAP_WIDTH;
+    return m_tiles_nbackground[pos];
+}

@@ -42,7 +42,6 @@ public:
      **/
     void add_texture(std::string name, sf::Texture * p_texture, bool background = true);
 
-private:
     std::vector<sf::Texture *> m_p_textures_list;   //The list of pointer to textures
     std::vector<std::string> m_texture_name;        //The list of name of textures
     std::vector<bool> m_background;                 //The list of whether the texture is a background or not

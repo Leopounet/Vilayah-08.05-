@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1525911857 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\editor.cpp
+1525916718 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\editor.cpp
 	"../include/Editor.h"
 
-1525818802 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\editor.h
+1525915948 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\editor.h
 	<iostream>
 	<vector>
 	<stdio.h>
@@ -11,6 +11,7 @@
 	<dos.h>
 	<windows.h>
 	"Textures.h"
+	<fstream>
 	"Map.h"
 	<SFML/Graphics.hpp>
 
@@ -402,32 +403,32 @@
 	<string>
 	<vector>
 
-1525913157 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\main.cpp
+1525916792 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\main.cpp
 	<iostream>
 	"include/Editor.h"
 	"include/Textures.h"
 	"include/Map.h"
 
-1525912832 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\textures.h
+1525916768 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\textures.h
 	<vector>
 	<string>
 	<iostream>
 	<SFML/Graphics.hpp>
 
-1525912846 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\textures.cpp
+1525915380 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\textures.cpp
 	"../include/Textures.h"
 
-1525912627 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\map.cpp
+1525916623 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\map.cpp
 	"../include/Map.h"
 
-1525912095 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\tiles.cpp
+1525915013 source:c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\src\tiles.cpp
 	"../include/Tiles.h"
 
-1525914530 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\tiles.h
+1525915022 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\tiles.h
 	<SFML/Graphics.hpp>
 	"Textures.h"
 
-1525914682 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\map.h
+1525916516 c:\users\aurel\desktop\git\codeblocks\vilayah-08.05-\include\map.h
 	"Tiles.h"
 	<vector>
 

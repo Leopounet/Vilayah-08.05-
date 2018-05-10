@@ -39,6 +39,20 @@ public:
      **/
     void set_tile(unsigned int pos_x, unsigned int pos_y, unsigned int left, unsigned int top, bool solid, unsigned int texture_index);
 
+    /**
+     * @brief Returns a tile at a given position of the background tiles.
+     * @param x : The x position of the tile.
+     * @param y : The y position of the tile.
+     **/
+    Tiles get_tile_background(unsigned int x, unsigned int y);
+
+    /**
+     * @brief Returns a tile at a given position of the not background tiles.
+     * @param x : The x position of the tile.
+     * @param y : The y position of the tile.
+     **/
+    Tiles get_tile_nbackground(unsigned int x, unsigned int y);
+
 private:
     std::vector<Tiles> m_tiles_background;  //List of background tiles
     std::vector<Tiles> m_tiles_nbackground; //List of not background tiles

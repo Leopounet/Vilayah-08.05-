@@ -100,6 +100,14 @@ int main()
                 }
             }
 
+            if(event.type == sf::Event::KeyPressed)
+            {
+                if(event.key.code == sf::Keyboard::E)
+                {
+                    editor.save_map();
+                }
+            }
+
             //file handling events
             window.setView(file_view);
         }
